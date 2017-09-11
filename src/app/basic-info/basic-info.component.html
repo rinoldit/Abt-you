@@ -1,3 +1,60 @@
-<p>
-  basic-info works!
-</p>
+<h2>
+  Enter Your Detail</h2>
+
+
+<form action="" [formGroup]="stdForm" novalidate>
+  <div class="row">
+
+  <div class="form-group col-xs-12 col-sm-6 col-lg-6 col-xl-3">
+    <label class="center-block">Name:
+      <input class="form-control" formControlName="name">
+    </label>
+  </div>
+  <div class="form-group col-xs-12 col-sm-6 col-lg-6 col-xl-3">
+      <label class="center-block">Highest Education:
+        <input class="form-control" formControlName="edu">
+      </label>
+    </div>
+
+  <div class="form-group col-xs-12 col-sm-6 col-lg-6 col-xl-3">
+    <label class="center-block">Contact No:
+        <input class="form-control" formControlName="contactNo" type="text">
+      </label>
+  </div>
+
+
+  <div class="form-group col-xs-12 col-sm-6 col-lg-6 col-xl-3">
+    <label class="center-block">Email:
+      <input class="form-control" formControlName="email">
+    </label>
+  </div>
+
+  <div class="form-group col-xs-12 col-sm-6 col-lg-6 col-xl-3">
+    <label class="center-block">One Line Address:
+      <input class="form-control" formControlName="oneLineAddress">
+    </label>
+  </div>
+
+  <div class="form-group col-xs-12 col-sm-6 col-lg-6 col-xl-3 checkbox checkbox-primary">
+      <label class="center-block">willing
+        <input class="custom-control-input" type="checkbox" formControlName="willing">
+        <span class="cr"><i class="checkbox checkbox-primary"></i></span>
+      </label>
+    </div>
+
+  <div class="form-group col-xs-12 col-sm-6 col-lg-6 col-xl-3">
+      <label class="center-block">One Line Address:
+        <input class="form-control" type="text-area" formControlName="oneLineAddress">
+      </label>
+    </div>
+  </div>
+  <button class="btn btn primary" type="reset">reset</button>
+</form>
+<br>
+<div>
+<button class="btn btn primary" type="submit">Make </button>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3">
+  <p>Form value: {{ stdForm.value | json }}</p>
+  <p>Form status: {{ stdForm.status | json }}</p>
+</div>

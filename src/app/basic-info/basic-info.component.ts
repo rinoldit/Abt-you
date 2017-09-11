@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, FormBuilder,Validators  } from '@angular/forms';
 
 @Component({
   selector: 'app-basic-info',
@@ -6,10 +7,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./basic-info.component.css']
 })
 export class BasicInfoComponent implements OnInit {
+  /////////////////////////////////////////////////////////////
+  // public name = new FormControl("RINOLD");                //
+  // public stdname = new FormControl();                    //
+  ///////////////////////////////////////////////////////////
+public stdForm: FormGroup;
 
-  constructor() { }
+constructor(private fb:FormBuilder){
+  this.createForm();
+}
 
+  
   ngOnInit() {
   }
 
+  public createForm(){
+    this.stdForm = this.fb.group({
+      name:[''],
+      contactNo:"",
+      email: "",
+      oneLineAddress:"",
+      aboutU:"",
+      aoi:"",
+      edu:"",
+      skills:"",
+      workHistory:"",
+      willing:""
+      
+    });
+  }
 }

@@ -1,0 +1,14 @@
+form{
+    background-color:#F2F5F9	;
+} 
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #D25656;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: right;
+    margin-right: .5em;
+}
