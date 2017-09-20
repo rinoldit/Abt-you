@@ -1,0 +1,133 @@
+// {
+//   "title" : "My Resume",
+//   "name" : "Sriraman",
+//   "age" : 23,
+//   "description" : "Javascript developer (React Native, Node.js, React.js, etc.,)",
+//   "location" : "Benguluru, Karnataka",
+//   "experiences" : [
+//   {
+//   "company" : "Witworks",
+//   "designation" : "Senior Software Engineer",
+//   "time_period" : "November 2014 to Present",
+//   "description" : "Working as architect to create a virtual space that helps people implant an idea into the world's subconscious",
+//   },
+//   {
+//   "company" : "Provenlogic",
+//   "designation" : "Spiderman",
+//   "time_period" : "April 2014 to September 2014",
+//   "description" : "We are spinning the web by developing amazing web applications from scratch",
+//   },
+//   {
+//   "company" : "MyCopie",
+//   "designation" : "Web Developer",
+//   "time_period" : "December 2013 to April 2014",
+//   "description" : "Developed various products for 'MyCopie' to serve through online for student community",
+//   },
+//   {
+//   "company" : "AppDupe",
+//   "designation" : "Technical Support and Web Development",
+//   "time_period" : "June 2013 to September 2014",
+//   "description" : "Interacted with many international customers around the world and built custom application for them.",
+//   },
+//   {
+//   "company" : "VDime Innovative Works",
+//   "designation" : "Intern",
+//   "time_period" : "1 month",
+//   "description" : "Did customization in their web application for VDime's prestigious clients Lenskart, GRT etc.,",
+//   },
+//   {
+//   "company" : "InfySEC",
+//   "designation" : "Web Developer",
+//   "time_period" : "8 months (part-time)",
+//   "description" : "Developed hacking game (CTF) for e-hack (Guinness Record Event)",
+//   },
+//   {
+//   "company" : "Dimensions Co",
+//   "designation" : "PHP Tutor",
+//   "time_period" : "4 months (part-time)",
+//   "description" : "Created Video Tutorials about PHP and MySQL for Beginners",
+//   },
+//   {
+//   "designation" : "Freelancer",
+//   "projects" : [
+//   "http://ilovedogs.tv" - Brazil ,
+//   "http://votapld.com" - Spain ,
+//   "http://thedailyschool.com" - UK ,
+//   "http://expertshub.org" - India,
+//   "http://tedxmambalamEd.com" - Chennai,
+//   and more
+//   ],
+//   "description" : "Built HTML5,CSS3,PHP sites and wordpress sites"
+//   },
+//   ],
+//   "publications" : [
+//   {
+//   "title" :"What we learned after using React Native for a year",
+//   "link" : "https://hashnode.com/post/what-we-learned-after-using-react-native-for-a-year-civdr8zv6058l3853wqud7hqp"
+//   },
+//   {
+//   "title" :"Building custom Android modules for React Native",
+//   "link" : "https://hashnode.com/post/building-custom-android-modules-for-react-native-ciqcba1hj00phaj53f9u4laww"
+//   }
+//   ],
+//   "skills" : [
+//   {
+//   "mobile_development" : "React Native"
+//   "web_development" : "ReactJS, Node js, PHP5, Laravel4, MySQL",
+//   "web_designing" : "HTML5, CSS3, javascript",
+//   }
+//   ],
+//   "education" : [
+//   {
+//   "course" : "B.E. (CSE)",
+//   "college" : "Sriram Engineering College",
+//   "percentage" : "76%",
+//   "completion year" : "May 2014",
+//   },
+//   {
+//   "course" : "12th Standard",
+//   "school" : "K.C.S.N.H.S.S",
+//   "percentage" : "89%",
+//   "completed year" : "May 2010",
+//   },
+//   {
+//   "course" : "10th Standard",
+//   "school" : "K.C.S.N.H.S.S",
+//   "percentage" : "91.4%",
+//   "completed year" : "May 2008",
+//   }
+//   ],
+//   "honors" : [
+//   {
+//   "name" : "Rajya Purashkar Award",
+//   "given_by" : "Shri Surjit Singh Barnala, Former Governor of Tamilnadu",
+//   "issuer" : "Government of Tamilnadu",
+//   },
+//   {
+//   "name" : "2nd Prize in GDG Hackathon 2013",
+//   "with" : "Somasundaram Ayyappan"
+//   "given_by" : "Vijay Kirubakaran, CEO of InGage",
+//   "issuer" : "Google Developers Group Chennai"
+//   },
+//   {
+//   "name" : "1st Prize in High Octane Quiz",
+//   "given_by" : "Lazy Coder Camp",
+//   "issuer" : "PHP Factory"
+//   },
+//   {
+//   "site" : "Stack Overflow",
+//   "reputation" : "2,310",
+//   "medals" : "16 Silver, 42 Bronze",
+//   "profile_url" : "http://stackoverflow.com/users/2859018/sriraman"
+//   }
+//   ],
+//   "contacts" : [
+//   {
+//   "email" : "sri@sriraman.in",
+//   "website" : "http://sriraman.in/",
+//   "phone" : "(+91)9042225484",
+//   "github" : "http://github.com/sriraman/",
+//   "linkedin" : "http://in.linkedin.com/in/sriraman2/"
+//   }
+//   ]
+//   }

@@ -32,8 +32,13 @@ constructor(private fb:FormBuilder){
       edu:"",
       skills:"",
       workHistory:"",
-      willing:""
-      
+      willing:"",
+      location:"",
+      projects:"",
+      contacts: ""
+
     });
   }
 }
+
+
